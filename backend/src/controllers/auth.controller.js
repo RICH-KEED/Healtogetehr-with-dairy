@@ -139,7 +139,7 @@ export const updateProfile = async (req, res) => {
   try {
     // Set CORS headers first to ensure they're present
     res.set({
-      'Access-Control-Allow-Origin': req.headers.origin || 'http://localhost:5176', 
+      'Access-Control-Allow-Origin': req.headers.origin || 'https://healtogether.tech', 
       'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       'Access-Control-Allow-Credentials': 'true'
