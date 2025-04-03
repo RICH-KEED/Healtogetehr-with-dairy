@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Keep the /api in the base URL for consistency with other endpoints
-const BASE_URL = "https://healtogether.tech/api";
+const BASE_URL = process.env.VITE_API_BASE_URL || "https://healtogether.tech";
 
 console.log("API base URL:", BASE_URL);
 
